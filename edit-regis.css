@@ -1,0 +1,151 @@
+body{
+    background: #ffd7acf8 !important;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+}
+
+.navbar-inverse {
+    background-color: #cf5432;
+    border-color: #bf583c;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: #FFD3A4;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: #8C4A2F;
+    color: #FFF7EC;
+}
+
+.nav-logo {
+    height: 85px;    
+    width: auto;
+    margin-top: -32px;  
+}
+
+
+.one {
+    display: flex;
+    background: #FFF3E4; 
+    overflow: hidden; 
+    box-shadow: 0 5px 20px rgba(94,48,35,0.18);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.fs{
+    border: none;
+}
+
+/* gambar kiri */
+.left-img img {
+    width: 450px;
+    height: 510px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(94,48,35,0.25);
+    margin: -5px;
+}
+
+/* BOX FORM */
+.box {
+    background: #FFF3E4;  /* soft cream */
+    padding: 25px 35px;
+    width: 420px;
+    box-shadow: 0px 5px 15px rgba(94,48,35,0.18);
+    border: none;
+}
+
+/* JUDUL */
+.box h2 {
+    text-align: center;
+    color: #5E3023; 
+}
+
+/* tabel form */
+.tabel td {
+    padding: 8px 5px;
+    color: #5E3023;
+    font-weight: 500;
+}
+
+/* input */
+.input {
+    width: 100%;
+    padding: 7px 10px;
+    background: #FFF9F2;
+    border: 1.5px solid #E0A872; 
+    outline: none;
+    color: #5E3023;
+}
+
+.input:focus {
+    border-color: #B85C38; 
+}
+
+
+.button {
+    background: #B85C38; /* burnt orange */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #8C4A2F; 
+}
+
+/* login text */
+.login {
+    text-align: center;
+    margin-top: 10px;
+    color: #5E3023;
+}
+
+.login a {
+    text-decoration: none;
+    color: #B85C38;
+    font-weight: 600;
+}
+
+.login a:hover {
+    color: #8C4A2F;
+}
+
+.sfooter {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #903013;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.sfooter a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: .2s;
+}
+.sfooter a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,151 @@
+body{
+    background-image: url(libs.jpeg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-inverse {
+    background-color: #cf5432;
+    border-color: #bf583c;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: #FFD3A4;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: #8C4A2F;
+    color: #FFF7EC;
+}
+
+.nav-logo {
+    height: 85px;    
+    width: auto;
+    margin-top: -32px;  
+}
+
+/* WRAPPER BIAR RAPI */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* BOX LOGIN */
+.box{
+    background: #FFF3E4;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(94,48,35,0.18);
+    width: 420px;
+}
+
+/* TITLE */
+.title{
+    text-align: center;
+    color: #703221;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* FIELDSET */
+.fs{
+    border: 2px solid #E0A872;
+    border-radius: 15px;
+    outline: none;
+    padding: 20px;
+}
+
+
+/* TABLE */
+.table td{
+    padding: 8px 5px;
+    color: #5E3023;
+    font-weight: 500;
+    outline: none;
+    border-color: none;
+}
+
+
+.input{
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: #FFF9F2;
+    border: 1.5px solid #E0A872;
+    outline: none;
+    color: #5E3023;
+}
+
+.input:focus {
+    border-color: #B85C38;
+}
+
+/* BUTTON */
+.button {
+    background: #B85C38;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #8C4A2F;
+}
+
+/* LINK SIGN UP */
+.link {
+    text-align: center;
+    margin-top: 15px;
+    color: #5E3023;
+    font-weight: 500;
+    margin: 0;
+}
+
+.link a {
+    text-decoration: none;
+    color: #B85C38;
+    font-weight: 600;
+}
+
+.link a:hover {
+    color: #8C4A2F;
+}
+
+
+.sfooter {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #903013;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 82px;
+}
+.sfooter a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: .2s;
+}
+.sfooter a:hover {
+    text-decoration: underline;
+}

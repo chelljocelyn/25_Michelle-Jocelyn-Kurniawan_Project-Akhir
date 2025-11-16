@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(
+        135deg,
+        #f6d6ad 0%, 
+        hsl(31, 50%, 75%) 40%,  
+        #f7c0a6 100%
+    );
+    min-height: 100vh;
+}
+
+
+.navbar-inverse {
+    background-color: #cf5432;
+    border-color: #bf583c;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: #FFD3A4;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: #8C4A2F;
+    color: #FFF7EC;
+}
+
+.nav-logo {
+    height: 85px;    
+    width: auto;
+    margin-top: -32px;  
+}
+
+/* ===== JUDUL HALAMAN ===== */
+.judul {
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    margin: 26px auto 14px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5b3a29;
+    text-decoration: none;
+}
+
+/* ===== TABEL DATA ===== */
+.tabel {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    background-color: #fffaf3;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border: none;
+}
+
+/* header kolom */
+.tabel th {
+    padding: 10px 14px;
+    background-color: #e6a46b;
+    color: #fffaf3;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* isi kolom */
+.tabel td {
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #5b3a29;
+    text-align: center;
+    border-top: 1px solid #f0d2ad;
+    background-color: #fffaf3;
+}
+
+/* ===== TOMBOL UPDATE / DELETE ===== */
+.aksi-update a,
+.aksi-hapus a {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* tombol Update */
+.aksi-update a {
+    background-color: #fbe5c4;
+    border: 1px solid #e0b898;
+    color: #5b3a29;
+}
+
+/* tombol Delete */
+.aksi-hapus a {
+    background-color: #fbe0dd;
+    border: 1px solid #e0a0a0;
+    color: #8b3030;
+}
+
+.aksi-update a:hover {
+    background-color: #f6d3aa;
+}
+
+.aksi-hapus a:hover {
+    background-color: #f3b9b4;
+}
+
+.sfooter {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #903013;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 320px;
+}
+.sfooter a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: .2s;
+}
+.sfooter a:hover {
+    text-decoration: underline;
+}
+
+
+

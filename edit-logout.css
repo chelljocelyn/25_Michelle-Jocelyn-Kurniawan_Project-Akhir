@@ -1,0 +1,286 @@
+.navbar-inverse {
+    background-color: #cf5432;
+    border-color: #bf583c;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FBE9DD;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: #FFD3A4;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    background-color: #8C4A2F;
+    color: #FFF7EC;
+}
+
+.nav-logo {
+    height: 85px;    
+    width: auto;
+    margin-top: -32px;  
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    min-height: 100vh;
+    background:
+        linear-gradient(
+            180deg,
+            #fff5eb 0%,
+            #f8dfb7 18%,
+            #f3c48b 40%,
+            #eca06d 65%,
+            #dc7a52 100%
+        );
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background:
+        radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.35) 0, transparent 55%),
+        radial-gradient(circle at 85% 22%, rgba(255, 255, 255, 0.22) 0, transparent 55%),
+        radial-gradient(circle at 18% 82%, rgba(214, 133, 74, 0.28) 0, transparent 55%),
+        radial-gradient(circle at 88% 88%, rgba(230, 150, 90, 0.26) 0, transparent 55%);
+}
+
+
+.hero {
+    padding: 60px 0 50px;
+}
+
+.hero-inner {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-left {
+    flex: 1.1;
+}
+
+.hero-left h1 {
+    font-size: 44px;         
+    margin: 0 0 18px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0 0 10px;
+    max-width: 470px;
+}
+
+.hero-btn {
+    margin-top: 22px;
+    padding: 8px 30px;
+    border-radius: 999px;
+    border: 1px solid #5b3a29;
+    background-color: #fffaf3;
+    color: #5b3a29;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #f2e0c7;
+}
+
+.hero-right {
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-main-img {
+    width: 420px;
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== BOOKS SECTION ===== */
+
+.books {
+    padding: 60px 0 90px;
+}
+
+.books-inner {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.books-title {
+    font-size: 30px;
+    margin: 0 0 6px;
+    font-weight: bold;
+}
+
+.books-subtitle {
+    font-size: 15px;
+    margin: 0 0 26px;
+    max-width: 420px;
+}
+
+
+.book-grid {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    flex: 1;
+    min-width: 260px;
+    background-color: #fffaf3;
+    border-radius: 24px;
+    padding: 18px 18px 20px;
+    box-shadow: 0 12px 26px rgba(0,0,0,0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book-cover-wrap {
+    width: 100%;
+    max-width: 260px;
+    height: 230px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.book-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+}
+
+.book-name {
+    font-size: 18px;
+    margin: 0 0 4px;
+}
+
+.book-author {
+    font-size: 14px;
+    margin: 0 0 10px;
+    color: #7b5741;
+}
+
+.book-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    background-color: #fbe5c4;
+    color: #5b3a29;
+}
+
+/* ===== NEW ARRIVALS ===== */
+
+.arrivals {
+    padding: 10px 0 80px;
+}
+
+.arrivals-inner {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.arrivals-title {
+    font-size: 28px;
+    margin: 0 0 6px;
+    font-weight: bold;
+}
+
+.arrivals-subtitle {
+    font-size: 15px;
+    margin: 0 0 16px;
+    max-width: 460px;
+}
+
+.arrivals-panel {
+    max-width: 1500px;
+    margin: 10px auto 0;           
+    background-color: rgba(255, 250, 243, 0.96);
+    border-radius: 24px;
+    padding: 18px 24px 24px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+
+.arrivals-grid {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.arrival-card {
+    text-align: center;
+    max-width: 280px;       
+}
+
+.arrival-cover {
+    width: 210px;           
+    height: auto;              
+    border-radius: 20px;
+    object-fit: contain;       
+    box-shadow: 0 12px 24px rgba(0,0,0,0.18);
+    margin-bottom: 10px;
+}
+
+
+.arrival-name {
+    font-size: 16px;
+    margin: 0 0 4px;
+}
+
+.arrival-author {
+    font-size: 13px;
+    margin: 0;
+    color: #7b5741;
+}
+
+.sfooter {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #903013;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 60px;
+}
+.sfooter a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: .2s;
+}
+.sfooter a:hover {
+    text-decoration: underline;
+}
